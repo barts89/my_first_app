@@ -4,18 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { Serializer } from '@angular/compiler';
-import { ServerComponent } from './server/server.component';
-import { ServersComponent } from './servers/servers.component';
+import {HeaderComponent} from './header/header.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent,
-    ServersComponent
+    HeaderComponent,
+    UserComponent
   ],
   imports: [
-    BrowserModule/*,
-    FormsModule*/
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
